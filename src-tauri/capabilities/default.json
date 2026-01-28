@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schema.tauri.app/config/2/capability",
+  "identifier": "default",
+  "description": "Default capabilities for Turbo Waffle",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "shell:allow-execute",
+    {
+      "identifier": "shell:allow-spawn",
+      "allow": [
+        { "name": "run-terminal", "cmd": "gnome-terminal", "args": true },
+        { "name": "run-konsole", "cmd": "konsole", "args": true },
+        { "name": "run-alacritty", "cmd": "alacritty", "args": true },
+        { "name": "run-kitty", "cmd": "kitty", "args": true },
+        { "name": "run-xterm", "cmd": "xterm", "args": true },
+        { "name": "run-osascript", "cmd": "osascript", "args": true }
+      ]
+    }
+  ]
+}

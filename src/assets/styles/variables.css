@@ -1,0 +1,41 @@
+:root {
+  --bg-primary: #0f172a;
+  --bg-card: #1e293b;
+  --bg-card-hover: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent: #14b8a6;
+  --accent-hover: #0d9488;
+  --status-online: #22c55e;
+  --status-offline: #ef4444;
+  --status-degraded: #f59e0b;
+  --status-unknown: #64748b;
+  --icon-website: #3b82f6;
+  --icon-ssh: #f97316;
+  --icon-database: #06b6d4;
+  --border-color: #334155;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  --radius: 0.5rem;
+  --radius-lg: 0.75rem;
+}
+
+[data-theme="waffle"] {
+  --bg-primary: #fef9f3;
+  --bg-card: #ffffff;
+  --bg-card-hover: #fdf6ed;
+  --text-primary: #4a3728;
+  --text-secondary: #78593d;
+  --text-muted: #a68b6a;
+  --accent: #d97706;
+  --accent-hover: #b45309;
+  --status-online: #16a34a;
+  --status-offline: #dc2626;
+  --status-degraded: #ca8a04;
+  --status-unknown: #a68b6a;
+  --icon-website: #2563eb;
+  --icon-ssh: #ea580c;
+  --icon-database: #0891b2;
+  --border-color: #e8d5c4;
+  --shadow: 0 4px 6px -1px rgba(74, 55, 40, 0.1);
+}
