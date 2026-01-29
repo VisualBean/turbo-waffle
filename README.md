@@ -1,4 +1,5 @@
 # Turbo Waffle
+<img width="848" height="507" alt="image" src="https://github.com/user-attachments/assets/f24aedf8-76e3-4a00-a851-a3a1e1f777fe" />
 
 A cross-platform desktop application for managing connections (websites, SSH) with health monitoring and Wake-on-LAN support.
 
