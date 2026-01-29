@@ -9,7 +9,6 @@ A cross-platform desktop application for managing connections (websites, SSH) wi
 - **Health Monitoring**: Automatic health checks with real-time status indicators
 - **Quick Connect**: Launch SSH connections in your terminal or open websites in your browser with one click
 - **Wake-on-LAN**: Wake sleeping machines before connecting via SSH
-- **Dark Mode**: Modern dark-themed UI that's easy on the eyes
 
 ## Supported Connection Types
 
